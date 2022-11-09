@@ -1,8 +1,7 @@
-import React from "react";
-import { Container } from "./style";
-import { placeList } from "../../data";
 import { useState } from "react";
 import { useEffect } from "react";
+// import { Container } from "../../pages/MainPage/style";
+import { placeList } from "../../data";
 
 export const MainPage = () => {
   const [hotPlace, setHotPlace] = useState(
@@ -11,12 +10,13 @@ export const MainPage = () => {
     )
   );
 
-  const showHotPlace = (e) => {
+  const showHotPlace = (e: object) => {
     return;
   };
 
   return (
-    <Container>
+    // <Container>
+    <>
       {hotPlace?.map((val) => (
         <>
           <h1>{val.district}</h1>
@@ -25,6 +25,7 @@ export const MainPage = () => {
           ))}
         </>
       ))}
-    </Container>
+    </>
+    // </Container>
   );
 };
