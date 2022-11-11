@@ -10,11 +10,3 @@ export const TitleBox = styled.div`
   font-size: 2rem;
   font-weight: 600;
 `;
-
-export const CardBox = styled.div`
-  margin: 1rem;
-`;
-
-export const FlexBox = styled.div`
-  display: flex;
-`;
