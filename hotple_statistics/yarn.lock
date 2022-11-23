@@ -1299,6 +1299,11 @@ hoist-non-react-statics@^3.0.0, hoist-non-react-statics@^3.3.0, hoist-non-react-
   dependencies:
     react-is "^16.7.0"
 
+http-proxy-middelware@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/http-proxy-middelware/-/http-proxy-middelware-0.0.1-security.tgz#b4e507b6895078ce6a61e860bf7fd45021ba3b3c"
+  integrity sha512-s0HRTtgllAbRzhcp6lbrBlSMUyK5uPLi9bmofZAcpUqoX7L67PHq9WWI9ETVcWYbVBmXA4fdUn+xqRgKl9rVCQ==
+
 iconv-lite@^0.4.24:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"

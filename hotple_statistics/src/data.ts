@@ -5,10 +5,11 @@ interface PlaceType {
   image: string;
 }
 
-interface PlaceList {
+export interface PlaceList {
   district: string;
   placeList: PlaceType[];
 }
+
 export const placeList: PlaceList[] = [
   {
     district: "영등포구",
